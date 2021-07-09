@@ -223,10 +223,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9ceacc5556d524793effe9a6121cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wave: {fileID: 11400000, guid: f55abc2cbfe6f0a42911aacf3880ccb7, type: 2}
   waypoints:
   - {fileID: 6441080908650185259}
   - {fileID: 6441080908650185258}
   - {fileID: 6441080908650185257}
+  speed: 4
 --- !u!1001 &4021018106662963752
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -431,7 +433,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 173032544415798434, guid: 76c2ab3b4eedfcd419d25d70ad371c5a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -32.932293
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 173032544415798434, guid: 76c2ab3b4eedfcd419d25d70ad371c5a, type: 3}
       propertyPath: m_LocalRotation.w
